@@ -2,24 +2,119 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 24, 28, 35;
-  --background-end-rgb: 24, 28, 35;
-}
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+
+    --primary: 142 92% 64%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 172 100% 18%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 55 57% 70%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 172 100% 18%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
   }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --border: 217 19% 27%;
+    --input: 217 19% 27%;
+
+    --primary: 142 92% 64%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 172 100% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 55 57% 70%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 172 100% 18%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 217 19% 27%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-custom-black text-white;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading tracking-[0.015rem];
+  }
+  p,
+  span,
+  a,
+  button,
+  input,
+  textarea {
+    @apply font-sans;
+  }
+}
+
+.section-number {
+  @apply text-main-green text-sm font-sans flex items-center gap-2;
+}
+
+.section-number::before {
+  content: "";
+  @apply inline-block w-2 h-2 rounded-full bg-main-green;
+}
+
+.faq-item {
+  @apply border-t border-white/10 py-6;
+}
+
+.faq-item:last-child {
+  @apply border-b border-white/10;
+}
+
+.process-step {
+  @apply relative pl-6;
+}
+
+.process-step::before {
+  content: "";
+  @apply absolute left-0 top-2 w-2 h-2 rounded-full bg-main-green;
 }
