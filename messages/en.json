@@ -1,0 +1,601 @@
+{
+  "header": {
+    "projects": "Projects",
+    "services": "Services",
+    "technologies": "Technologies",
+    "process": "Process",
+    "feedbacks": "Feedbacks",
+    "blog": "Blog",
+    "quote": "Quick quote",
+    "cta": "Get in touch"
+  },
+  "hero": {
+    "badge": "Professional Web Development",
+    "title1": "TRANSFORMING",
+    "title2": "IDEAS INTO",
+    "title3": "CODE",
+    "subtitle": "High-performance digital solutions focused on user experience, scalability, and measurable results for your business.",
+    "cta1": "View Projects",
+    "cta2": "How It Works",
+    "stat1": "Projects Delivered",
+    "stat2": "Years of Experience",
+    "stat3": "Satisfaction"
+  },
+  "casestudy": {
+    "hero": {
+      "title1": "Clients who ",
+      "title2": "trust",
+      "subtitle": "Successful partnerships that delivered real results and transformed businesses"
+    },
+    "labels": {
+      "problem": "Problem",
+      "solution": "Solution",
+      "result": "Result"
+    },
+    "cta": {
+      "button": "Let’s build your next success"
+    },
+    "panasonic": {
+      "problem": "Low engagement at the booth and difficulty converting visitors into leads",
+      "solution": "Interactive web experience integrated with virtual reality headsets to attract audiences",
+      "result": "+29% qualified leads generated during the event",
+      "metric1": {
+        "label": "Booth engagement increase",
+        "value": "+47%"
+      },
+      "metric2": {
+        "label": "Qualified leads generated",
+        "value": "+29%"
+      },
+      "metric3": {
+        "label": "Average interaction time",
+        "value": "+5.2x"
+      }
+    },
+    "flytop": {
+      "problem": "Positioning the brand in the US market with a faster and more scalable platform",
+      "solution": "Modern React architecture with smart caching and high-performance APIs",
+      "result": "Platform 3x faster with increased productivity",
+      "metric1": {
+        "label": "Page load speed",
+        "value": "3x faster"
+      },
+      "metric2": {
+        "label": "Team productivity",
+        "value": "+65%"
+      },
+      "metric3": {
+        "label": "Production error reduction",
+        "value": "-80%"
+      }
+    },
+    "wehub": {
+      "problem": "Need for an international website with dynamic translation and regional customization",
+      "solution": "Multilingual platform with instant translation and content automation",
+      "result": "Saved 40 hours per week on manual tasks",
+      "metric1": {
+        "label": "Time saved through automation",
+        "value": "40h/week"
+      },
+      "metric2": {
+        "label": "International publishing speed",
+        "value": "5x faster"
+      },
+      "metric3": {
+        "label": "Global content consistency",
+        "value": "100%"
+      }
+    }
+  },
+  "projects": {
+    "badge": "Portfolio",
+    "title": "DEVELOPED",
+    "titleHighlight": "PROJECTS",
+    "description": "Each project is an opportunity to create something unique. Check out some of the most recent work.",
+    "demo": "Demo",
+    "viewAll": "View All Projects",
+    "filterAll": "All",
+    "projectList": {
+      "panasonic": {
+        "title": "Panasonic - Experience that turns attention into leads",
+        "description": "Immersive digital experience designed to convert event visitors into qualified leads. We combined web and virtual reality to bring the audience closer to the product, increase interaction time, and generate high-value commercial data for the sales team.",
+        "challenge": "The booth attracted visitors, but interaction with the products was superficial and did not convert into qualified leads. A striking element was missing to bring the audience closer to the technology presented.",
+        "solution": "We created a gamified web experience integrated with virtual reality glasses, transforming the product demonstration into an immersive and memorable moment. The interface was designed to collect interest data frictionlessly and guide the visitor to the next commercial step.",
+        "result1": "+29% qualified leads during the event",
+        "result2": "+47% engagement at the booth",
+        "result3": "5x longer average interaction time"
+      },
+      "flytop": {
+        "title": "FlyTop — Global credibility with high-level performance",
+        "description": "Digital brand positioning in the US market through a modern, fast, and scalable platform. The new architecture elevated the company's credibility, improved user experience, and provided a technological foundation for international growth.",
+        "challenge": "The company needed to position itself in the US market with a professional, fast, and scalable platform. The Brazilian website operates differently in its approach to clients.",
+        "solution": "Complete reconstruction of the architecture in React, with smart caching, API optimization, and an absolute focus on performance and user experience — aligning technology with the brand's international positioning.",
+        "result1": "3x faster platform",
+        "result2": "+65% internal productivity",
+        "result3": "-80% production errors"
+      },
+      "wehub": {
+        "title": "WeHub Group — Global communication without manual effort",
+        "description": "International platform with dynamic translation and content automation, designed to eliminate manual work and standardize the company's global communication. The project accelerated publications, reduced operational costs, and ensured consistency across languages.",
+        "challenge": "Maintaining an international website with content in multiple languages required repetitive work, delayed publications, and caused inconsistencies between regions.",
+        "solution": "Multilingual platform with instant translation, centralized content management, and market-specific automation for publishing, eliminating manual processes.",
+        "result1": "Saved 40 hours per week",
+        "result2": "5x faster international publications",
+        "result3": "100% consistency across languages"
+      },
+      "uketa": {
+        "title": "UK eTA — Automation and security for travel authorization",
+        "description": "Digital platform designed to automate and validate UK Electronic Travel Authorization applications, reducing errors and speeding up the process for both customers and administrators.",
+        "challenge": "The manual document submission process caused frequent errors, rework, and delays in application review.",
+        "solution": "We built a smart step-by-step form with AI-powered image and document validation, integrated payments, and a secure admin dashboard for reviewing and approving applications.",
+        "result1": "Significant reduction in document errors",
+        "result2": "Faster and more reliable application process",
+        "result3": "Centralized administrative management"
+      },
+      "gfa": {
+        "title": "Grupo Felipe Augusto — A strong institutional presence",
+        "description": "Institutional website developed to strengthen the brand and convey credibility to the market.",
+        "challenge": "The brand needed a more professional digital presence aligned with its positioning.",
+        "solution": "We delivered a modern institutional website built with WordPress and Elementor, ensuring content autonomy and clear communication.",
+        "result1": "Stronger institutional brand image",
+        "result2": "Easy content management",
+        "result3": "Clear and intuitive user experience"
+      },
+      "somaxmed": {
+        "title": "SomaxMed — Clear communication in healthcare",
+        "description": "Institutional website created to convey trust, professionalism, and clarity in the healthcare sector.",
+        "challenge": "The brand needed to present its services in a clearer and more trustworthy way.",
+        "solution": "We built a website focused on usability, professional visual identity, and easy content management.",
+        "result1": "Increased digital credibility",
+        "result2": "Clear communication of services",
+        "result3": "Full autonomy for internal updates"
+      },
+      "macrom8": {
+        "title": "Macro M8 — SaaS for nutrition and macro tracking",
+        "description": "SaaS platform developed for nutrition and macronutrient tracking, focused on user engagement and recurring revenue.",
+        "challenge": "Users needed a simple and effective way to track diet and macronutrients.",
+        "solution": "We developed a platform with free and paid plans, an intuitive experience, and smart nutrition data tracking.",
+        "result1": "Scalable SaaS-ready platform",
+        "result2": "Higher user engagement",
+        "result3": "Recurring monetization model"
+      }
+    }
+  },
+  "technologies": {
+    "badge": "Stack",
+    "title": "TECHNOLOGIES",
+    "titleHighlight": "USED",
+    "description": "Modern tools and technologies to create robust and scalable solutions.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools",
+    "techList": {
+      "react": "Main library for interactive interfaces",
+      "nextjs": "React framework for production",
+      "typescript": "JavaScript with static typing",
+      "tailwind": "Utility-first CSS framework",
+      "vuejs": "Progressive framework for UI",
+      "framer": "Smooth animations for React",
+      "nodejs": "Server-side JavaScript runtime",
+      "python": "Automation and data analysis",
+      "postgresql": "Robust relational database",
+      "mongodb": "Flexible NoSQL database",
+      "graphql": "Query language for APIs",
+      "firebase": "Backend as a Service",
+      "git": "Version control",
+      "docker": "Application containerization",
+      "aws": "Cloud computing and deploy",
+      "figma": "Design and prototyping",
+      "vercel": "Deploy and hosting",
+      "linux": "Server administration"
+    }
+  },
+  "process": {
+    "badge": "Process",
+    "title": "HOW THE",
+    "titleHighlight": "HIRING WORKS",
+    "description": "A simple and transparent process, from first contact to final delivery.",
+    "steps": {
+      "briefing": {
+        "title": "Briefing",
+        "description": "We discuss your project, goals, target audience, and technical requirements. I understand your vision to create the best solution."
+      },
+      "proposal": {
+        "title": "Proposal",
+        "description": "I present a detailed plan with scope, technologies, timeline, and investment. Everything transparent with no surprises."
+      },
+      "development": {
+        "title": "Development",
+        "description": "Development begins with frequent updates. You follow each step and can suggest adjustments during the process."
+      },
+      "delivery": {
+        "title": "Delivery",
+        "description": "Completed, tested, and documented project. Includes post-delivery support to ensure everything works perfectly."
+      }
+    }
+  },
+  "cta": {
+    "badge": "Ready to start?",
+    "title": "LET'S TURN YOUR",
+    "titleHighlight": "IDEA INTO REALITY",
+    "description": "Don't let your idea wait. Every passing day is a missed opportunity in the market. Let's talk and bring your project to life.",
+    "benefits": {
+      "fast": "Fast Delivery",
+      "secure": "Secure Code",
+      "onTime": "On-Time Guarantee"
+    },
+    "primaryButton": "Start My Project",
+    "secondaryButton": "View Projects",
+    "trustIndicator": "✓ Response within 24 hours • ✓ No-obligation quote"
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "WHAT CLIENTS",
+    "titleHighlight": "SAY",
+    "description": "Client satisfaction is the best measure of success.",
+    "list": {
+      "carlos": {
+        "name": "Carlos Mendes",
+        "role": "CEO, TechStart",
+        "content": "Exceptional professional! Delivered our e-commerce ahead of schedule with impeccable quality. The site performance exceeded all expectations."
+      },
+      "ana": {
+        "name": "Ana Silva",
+        "role": "Product Manager, Fintech",
+        "content": "Excellent communication throughout the project. The dashboard turned out incredible and the team loved using it. We'll definitely do more projects together."
+      },
+      "roberto": {
+        "name": "Roberto Costa",
+        "role": "Founder, DeliveryApp",
+        "content": "Turned our idea into reality. The app turned out much better than we imagined. Fantastic post-delivery support!"
+      },
+      "marina": {
+        "name": "Marina Santos",
+        "role": "Director, EduTech",
+        "content": "Our educational platform turned out perfect. Intuitive interface, clean code, and complete documentation. Highly recommend!"
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "FREQUENTLY",
+    "titleHighlight": "ASKED QUESTIONS",
+    "description": "Get answers to your main questions about the work process.",
+    "questions": {
+      "q1": {
+        "question": "What's the average development timeline for a project?",
+        "answer": "The timeline varies according to complexity. Simple projects take 2 to 4 weeks. More robust systems can take 1 to 3 months. During the briefing, I define a detailed and realistic schedule."
+      },
+      "q2": {
+        "question": "How does pricing and payment work?",
+        "answer": "The quote is made after detailed project analysis. I typically work with 50% upfront and 50% on delivery. For larger projects, we can split into more installments according to partial deliveries."
+      },
+      "q3": {
+        "question": "Do you offer support after delivery?",
+        "answer": "Yes! All projects include 30 days of free support for corrections and adjustments. After that period, I offer monthly maintenance plans as needed."
+      },
+      "q4": {
+        "question": "Can I follow the project development?",
+        "answer": "Absolutely! I maintain constant communication via Slack or WhatsApp, with weekly updates and access to the code repository. You can follow each step of the process."
+      },
+      "q5": {
+        "question": "Do you work with specific technologies or are you flexible?",
+        "answer": "I have expertise in React, Node.js, and modern technologies, but I'm flexible to adapt to project needs. If you need a specific stack, we can discuss it."
+      },
+      "q6": {
+        "question": "How do you ensure the project matches my vision?",
+        "answer": "Before starting the code, we create prototypes and wireframes to validate the design. During development, you follow along and can request adjustments. Approval is done at each stage."
+      }
+    }
+  },
+  "footer": {
+    "title": "LET'S",
+    "titleHighlight": "WORK TOGETHER",
+    "description": "Transform your idea into reality. Get in touch and let's discuss your next project.",
+    "cta": "Get a Quote",
+    "contact": {
+      "whatsapp": "Quick response",
+      "email": "For formal proposals",
+      "linkedin": "Professional profile",
+      "github": "Open source code"
+    },
+    "copyright": "Made with",
+    "backToTop": "Back to top",
+    "floatingCta": "Talk to Me"
+  },
+  "projectPage": {
+    "title": "ALL",
+    "titleHighlight": "PROJECTS",
+    "description": "Explore all developed projects, filter by technology, and discover the complete work.",
+    "backHome": "Back to Home",
+    "viewDetails": "View Details",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "results": "Results",
+    "techUsed": "Technologies Used",
+    "otherProjects": "Other Projects",
+    "visitSite": "Visit Site",
+    "viewCode": "View Code"
+  },
+  "contact": {
+    "title": "GET IN",
+    "titleHighlight": "TOUCH",
+    "description": "Have a project in mind? Let's chat and turn your idea into reality.",
+    "info": {
+      "title": "Contact Information",
+      "location": "Location",
+      "locationValue": "Brazil & Australia"
+    },
+    "availability": {
+      "title": "Availability",
+      "description": "Currently accepting new projects. I respond within 24 hours on business days."
+    },
+    "form": {
+      "title": "Send your message",
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "telephone": "Telephone",
+      "subject": "Subject",
+      "subjectPlaceholder": "What do you want to talk about?",
+      "message": "Message",
+      "messagePlaceholder": "Describe your project or question...",
+      "submit": "Send Message",
+      "cancel": "Cancel",
+      "sending": "Sending...",
+      "successTitle": "Message sent!",
+      "successMessage": "Thanks for reaching out. I'll respond soon!"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "lastUpdatedDate": "January 2025",
+    "intro": "This Privacy Policy describes how we collect, use, and protect your personal information when you visit our website or use our services.",
+    "sections": {
+      "dataCollection": {
+        "title": "Data Collection",
+        "content": "We collect information you provide directly, such as name, email, and messages sent through the contact form. We may also automatically collect browsing data such as IP address, browser type, and pages visited."
+      },
+      "dataUsage": {
+        "title": "Data Usage",
+        "content": "We use your information to respond to your requests, improve our services, send relevant communications about projects and services, and comply with legal obligations when applicable."
+      },
+      "dataSecurity": {
+        "title": "Data Security",
+        "content": "We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, alteration, disclosure, or destruction. We use encryption and secure servers."
+      },
+      "thirdParties": {
+        "title": "Third Party Sharing",
+        "content": "We do not sell or rent your personal information. We may share data with service providers who assist us in website operations, always under confidentiality agreements."
+      },
+      "userRights": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, delete, or port your personal data. You may also withdraw your consent at any time. To exercise these rights, please contact us."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "For questions about this policy or the handling of your data, please contact us via email at contato@devfolio.com or through the contact form on our website."
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated",
+    "lastUpdatedDate": "January 2025",
+    "intro": "This policy explains how we use cookies and similar technologies on our website to improve your browsing experience.",
+    "whatAreCookies": {
+      "title": "What are Cookies?",
+      "content": "Cookies are small text files stored on your device when you visit a website. They allow the site to recognise your device and remember your preferences and previous actions."
+    },
+    "typesTitle": "Types of Cookies We Use",
+    "types": {
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "Necessary for basic website functionality. Include session cookies and language preferences. Cannot be disabled."
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "description": "Help us understand how visitors interact with the site, collecting anonymous information to improve user experience."
+      },
+      "marketing": {
+        "title": "Marketing Cookies",
+        "description": "Used to track visitors across different sites and display relevant advertisements. You can opt out of these."
+      },
+      "preferences": {
+        "title": "Preference Cookies",
+        "description": "Allow the site to remember your choices, such as preferred language and region, to provide a personalised experience."
+      }
+    },
+    "management": {
+      "title": "Cookie Management",
+      "content": "You can control and manage cookies through your browser settings. Most browsers allow you to block or delete cookies. Note that disabling certain cookies may affect site functionality."
+    },
+    "contact": {
+      "title": "Questions",
+      "content": "If you have questions about our cookie policy, please contact us via email at contato@devfolio.com."
+    }
+  },
+  "legalLinks": {
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  },
+  "services": {
+      "badge": "Services",
+      "title": "Our",
+      "titleHighlight": "Services",
+      "description": "What we offer",
+      "cta": "Book a Call"
+  },
+  "servicesPage": {
+    "hero": {
+      "trustBadge1": "International Projects",
+      "trustBadge2": "High-Performance",
+      "trustBadge3": "Founders & Startups",
+      "title": "WE BUILD",
+      "titleHighlight": "PRODUCTS THAT PERFORM",
+      "subtitle": "A digital studio for founders and growing companies. We design and develop custom websites, SaaS products, and high-performance web applications that drive real results.",
+      "cta": "Book a Call",
+      "secondaryCta": "See Our Work"
+    },
+    "services": {
+      "badge": "What We Do",
+      "title": "SERVICES",
+      "titleHighlight": "THAT DELIVER",
+      "description": "We focus on outcomes, not features. Every project is built to solve real problems and create measurable impact.",
+      "outcomesLabel": "Outcomes",
+      "cta": "Let's Talk",
+      "websites": {
+        "title": "Custom Websites",
+        "forWho": "For companies that need more than a template",
+        "problems": "Your website is your first impression. We build fast, SEO-optimized sites that reflect your brand and convert visitors into customers. No WordPress templates, no page builders—just clean, custom code.",
+        "outcomes": {
+          "o1": "90+ PageSpeed scores",
+          "o2": "SEO-first architecture",
+          "o3": "Full ownership of code",
+          "o4": "Mobile-first design"
+        }
+      },
+      "saas": {
+        "title": "SaaS & Web Applications",
+        "forWho": "For startups and businesses building digital products",
+        "problems": "Turn your idea into a working product. We handle everything from MVP to scale—auth, databases, APIs, dashboards. Built with modern stacks that grow with your business.",
+        "outcomes": {
+          "o1": "Production-ready code",
+          "o2": "Scalable architecture",
+          "o3": "User authentication flows",
+          "o4": "Admin dashboards"
+        }
+      },
+      "performance": {
+        "title": "UX & Performance Optimization",
+        "forWho": "For sites that need to load faster and convert better",
+        "problems": "Slow sites lose customers. We audit, optimize, and refactor existing applications to hit Core Web Vitals, improve user experience, and increase conversion rates.",
+        "outcomes": {
+          "o1": "Improved Core Web Vitals",
+          "o2": "Higher conversion rates",
+          "o3": "Reduced bounce rates",
+          "o4": "Better SEO rankings"
+        }
+      },
+      "integrations": {
+        "title": "Integrations & Automation",
+        "forWho": "For teams drowning in manual processes",
+        "problems": "Connect your tools and automate repetitive work. CRM integrations, payment systems, email automation, third-party APIs—we make your stack work together.",
+        "outcomes": {
+          "o1": "Reduced manual work",
+          "o2": "Connected systems",
+          "o3": "Custom API integrations",
+          "o4": "Automated workflows"
+        }
+      },
+      "support": {
+        "title": "Ongoing Support",
+        "forWho": "For companies that need a reliable tech partner",
+        "problems": "Technology requires maintenance. We offer retainer packages for updates, security patches, new features, and priority support. Think of us as your extended dev team.",
+        "outcomes": {
+          "o1": "Monthly maintenance",
+          "o2": "Priority support",
+          "o3": "Regular updates",
+          "o4": "Security monitoring"
+        }
+      }
+    },
+    "process": {
+      "badge": "How We Work",
+      "title": "OUR",
+      "titleHighlight": "PROCESS",
+      "description": "A clear, transparent workflow from first call to launch and beyond.",
+      "steps": {
+        "discovery": {
+          "title": "Discovery",
+          "description": "We start with a call to understand your goals, constraints, and timeline. No sales pitch—just a clear conversation about what you need."
+        },
+        "build": {
+          "title": "Build",
+          "description": "Design and development happen in sprints with regular updates. You see progress, give feedback, and stay in control throughout."
+        },
+        "launch": {
+          "title": "Launch",
+          "description": "Rigorous testing, performance optimization, and a smooth deployment. We handle the technical details so you can focus on your launch."
+        },
+        "scale": {
+          "title": "Scale",
+          "description": "Post-launch support, analytics monitoring, and iterative improvements. We stick around to make sure everything keeps running smoothly."
+        }
+      }
+    },
+    "proof": {
+      "badge": "Results",
+      "title": "REAL",
+      "titleHighlight": "OUTCOMES",
+      "description": "We measure success in numbers, not adjectives. Here's what we've delivered.",
+      "cases": {
+        "case1": {
+          "type": "E-commerce",
+          "title": "Complete Platform Rebuild",
+          "description": "Migrated a legacy e-commerce platform to a modern stack with improved performance and UX.",
+          "metric1": {
+            "value": "3x",
+            "label": "Faster load time"
+          },
+          "metric2": {
+            "value": "45%",
+            "label": "More conversions"
+          }
+        },
+        "case2": {
+          "type": "SaaS Dashboard",
+          "title": "Analytics Platform MVP",
+          "description": "Built and launched an analytics dashboard from concept to production in 8 weeks.",
+          "metric1": {
+            "value": "8wks",
+            "label": "To launch"
+          },
+          "metric2": {
+            "value": "500+",
+            "label": "Active users"
+          }
+        },
+        "case3": {
+          "type": "Corporate Website",
+          "title": "Performance Optimization",
+          "description": "Audited and optimized an underperforming corporate site for Core Web Vitals.",
+          "metric1": {
+            "value": "95+",
+            "label": "PageSpeed score"
+          },
+          "metric2": {
+            "value": "2.1s",
+            "label": "Load time"
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "READY TO",
+      "titleHighlight": "BUILD?",
+      "description": "Let's have a conversation about your project. No obligations, no pressure—just a straightforward discussion about what you need and how we can help.",
+      "trust1": "Response within 24 hours",
+      "trust2": "No-obligation consultation",
+      "trust3": "Clear, honest pricing",
+      "button": "Book a Call"
+    }
+  },
+  "blog": {
+     "title": "INSIGHTS &",
+     "titleHighlight": "ARTICLES",
+     "description": "Practical thoughts on web development, performance, and building digital products that work.",
+     "allPosts": "All Posts",
+     "minRead": "min read",
+     "readMore": "Read More",
+     "noPostsFound": "No posts found for this filter.",
+     "backToBlog": "Back to Blog",
+     "relatedPosts": "Related Posts",
+     "ctaTitle": "Ready to Build Something?",
+     "ctaDescription": "Let's discuss your project and see how we can help.",
+     "ctaButton": "Get in Touch"
+  }
+}
