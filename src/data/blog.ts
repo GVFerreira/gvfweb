@@ -14,158 +14,158 @@
  }
  
  export const blogPosts: BlogPost[] = [
-   {
-     slug: "why-performance-matters",
-     title: "Why Website Performance Matters More Than Ever",
-     description: "Core Web Vitals, SEO rankings, and user experience—how page speed directly impacts your bottom line.",
-     content: `
-      ## The Cost of Slow Websites
-      
-      Every second counts. Studies show that a 1-second delay in page load time can result in a 7% reduction in conversions. For an e-commerce site making $100,000 per day, that's potentially $7,000 in lost revenue daily.
-      
-      ## Core Web Vitals: Google's Performance Metrics
-      
-      Google now uses Core Web Vitals as a ranking factor. These include:
-      
-      - **LCP (Largest Contentful Paint)**: How fast does the main content load?
-      - **FID (First Input Delay)**: How quickly can users interact?
-      - **CLS (Cumulative Layout Shift)**: How stable is the visual experience?
-      
-      ## Practical Steps to Improve Performance
-      
-      1. **Optimize images**: Use modern formats like WebP and implement lazy loading
-      2. **Minimize JavaScript**: Split bundles and defer non-critical scripts
-      3. **Leverage caching**: Implement proper cache headers and CDN strategies
-      4. **Reduce server response time**: Optimize backend queries and use edge computing
-      
-      ## The Business Impact
-      
-      Fast websites don't just rank better—they convert better. Users trust fast experiences, and that trust translates directly into revenue.
-     `,
-     publishedAt: "2025-01-15",
-     readingTime: 5,
-     tags: ["Performance", "SEO", "Web Development"],
-     coverImage: "/placeholder.svg",
-     author: {
-       name: "Gustavo V. Ferreira",
-     },
-   },
-   {
-     slug: "choosing-right-tech-stack",
-     title: "How to Choose the Right Tech Stack for Your SaaS",
-     description: "A practical guide to selecting technologies that scale with your business without overengineering from day one.",
-     content: `
-        ## The Stack Paradox
-        
-        Every founder faces this decision: which technologies should power your product? Choose wrong, and you'll either rebuild too soon or struggle to hire developers.
-        
-        ## Start with Your Constraints
-        
-        Before diving into frameworks, answer these questions:
-        
-        - What's your team's expertise?
-        - What's your time to market?
-        - What's your expected scale in 12-24 months?
-        
-        ## The Proven Stacks
-        
-        ### For Speed to Market
-        React/Next.js + PostgreSQL + Vercel
-        
-        This stack offers incredible developer velocity, excellent documentation, and a clear deployment path. Perfect for MVPs and products that need to iterate quickly.
-        
-        ### For Maximum Control
-        Custom backend + React frontend + Cloud infrastructure
-        
-        When you need fine-grained control over performance and data handling, a custom solution makes sense—but only if you have the engineering capacity.
-        
-        ## The Real Answer
-        
-        The best stack is one your team can ship with. Technology debates are often premature optimization. Focus on solving the problem first.
-     `,
-     publishedAt: "2025-01-08",
-     readingTime: 6,
-     tags: ["SaaS", "Technology", "Startups"],
-     coverImage: "/placeholder.svg",
-     author: {
-       name: "Gustavo V. Ferreira",
-     },
-   },
-   {
-     slug: "design-that-converts",
-     title: "Design That Converts: Beyond Pretty Interfaces",
-     description: "Why good-looking websites often fail to convert, and what actually drives users to take action.",
-     content: `
-        ## The Beautiful Website Trap
-        
-        Many businesses invest heavily in stunning designs that win awards but fail to generate leads. The problem? Aesthetics without strategy.
-        
-        ## What Actually Converts
-        
-        ### Clear Value Proposition
-        Users should understand what you offer within 5 seconds of landing on your page. Not what you do—what problem you solve.
-        
-        ### Reduced Cognitive Load
-        Every element on the page should serve a purpose. Decorative elements that don't guide users toward action are obstacles.
-        
-        ### Strategic CTAs
-        The placement, color, and copy of your calls-to-action matter more than most design elements. Test relentlessly.
-        
-        ## The Mobile Reality
-        
-        Over 60% of web traffic is mobile. Your design needs to work flawlessly on small screens—not just technically, but strategically.
-        
-        ## Measure Everything
-        
-        Install proper analytics. Track user behavior. Make decisions based on data, not opinions. The most beautiful button in the world is worthless if no one clicks it.
-     `,
-     publishedAt: "2024-12-20",
-     readingTime: 4,
-     tags: ["Design", "UX", "Conversion"],
-     coverImage: "/placeholder.svg",
-     author: {
-       name: "Gustavo V. Ferreira",
-     },
-   },
-   {
-     slug: "international-web-development",
-     title: "Building for International Markets",
-     description: "Technical and strategic considerations when creating websites and applications for a global audience.",
-     content: `
-      ## Going Global
-      
-      Expanding to international markets requires more than translation. Your technical infrastructure needs to support users across time zones, languages, and cultural expectations.
-      
-      ## Technical Foundations
-      
-      ### Internationalization (i18n)
-      Build your application with multiple languages in mind from day one. Retrofitting i18n is painful and expensive.
-      
-      ### Performance Across Regions
-      Use CDNs and edge computing to ensure fast load times globally. A site that loads in 1 second in New York might take 5 seconds in Singapore without proper infrastructure.
-      
-      ### Currency and Payment Methods
-      International users expect local payment options. Stripe, PayPal, and local alternatives vary significantly by region.
-      
-      ## Cultural Considerations
-      
-      - Date formats differ (MM/DD vs DD/MM)
-      - Color associations vary by culture
-      - Reading patterns differ (RTL vs LTR languages)
-      
-      ## The SEO Dimension
-      
-      International SEO requires proper hreflang tags, localized content, and sometimes separate domains or subdomains.
-     `,
-     publishedAt: "2024-12-10",
-     readingTime: 7,
-     tags: ["International", "Localization", "Web Development"],
-     coverImage: "/placeholder.svg",
-     author: {
-       name: "Gustavo V. Ferreira",
-     },
-   },
   {
+    slug: "why-performance-matters",
+    title: "Why Website Performance Matters More Than Ever",
+    description: "Core Web Vitals, SEO rankings, and user experience—how page speed directly impacts your bottom line.",
+    content: `
+## The Cost of Slow Websites
+
+Every second counts. Studies show that a 1-second delay in page load time can result in a 7% reduction in conversions. For an e-commerce site making $100,000 per day, that's potentially $7,000 in lost revenue daily.
+
+## Core Web Vitals: Google's Performance Metrics
+
+Google now uses Core Web Vitals as a ranking factor. These include:
+
+- **LCP (Largest Contentful Paint)**: How fast does the main content load?
+- **FID (First Input Delay)**: How quickly can users interact?
+- **CLS (Cumulative Layout Shift)**: How stable is the visual experience?
+
+## Practical Steps to Improve Performance
+
+1. **Optimize images**: Use modern formats like WebP and implement lazy loading
+2. **Minimize JavaScript**: Split bundles and defer non-critical scripts
+3. **Leverage caching**: Implement proper cache headers and CDN strategies
+4. **Reduce server response time**: Optimize backend queries and use edge computing
+
+## The Business Impact
+
+Fast websites don't just rank better—they convert better. Users trust fast experiences, and that trust translates directly into revenue.
+    `,
+    publishedAt: "2025-01-15",
+    readingTime: 5,
+    tags: ["Performance", "SEO", "Web Development"],
+    coverImage: "/blog/133831.webp",
+    author: {
+      name: "Gustavo V. Ferreira",
+    },
+  },
+  {
+    slug: "choosing-right-tech-stack",
+    title: "How to Choose the Right Tech Stack for Your SaaS",
+    description: "A practical guide to selecting technologies that scale with your business without overengineering from day one.",
+    content: `
+## The Stack Paradox
+
+Every founder faces this decision: which technologies should power your product? Choose wrong, and you'll either rebuild too soon or struggle to hire developers.
+
+## Start with Your Constraints
+
+Before diving into frameworks, answer these questions:
+
+- What's your team's expertise?
+- What's your time to market?
+- What's your expected scale in 12-24 months?
+
+## The Proven Stacks
+
+### For Speed to Market
+React/Next.js + PostgreSQL + Vercel
+
+This stack offers incredible developer velocity, excellent documentation, and a clear deployment path. Perfect for MVPs and products that need to iterate quickly.
+
+### For Maximum Control
+Custom backend + React frontend + Cloud infrastructure
+
+When you need fine-grained control over performance and data handling, a custom solution makes sense—but only if you have the engineering capacity.
+
+## The Real Answer
+
+The best stack is one your team can ship with. Technology debates are often premature optimization. Focus on solving the problem first.
+    `,
+    publishedAt: "2025-01-08",
+    readingTime: 6,
+    tags: ["SaaS", "Technology", "Startups"],
+    coverImage: "/blog/2149399293.webp",
+    author: {
+      name: "Gustavo V. Ferreira",
+    },
+  },
+  {
+    slug: "design-that-converts",
+    title: "Design That Converts: Beyond Pretty Interfaces",
+    description: "Why good-looking websites often fail to convert, and what actually drives users to take action.",
+    content: `
+## The Beautiful Website Trap
+
+Many businesses invest heavily in stunning designs that win awards but fail to generate leads. The problem? Aesthetics without strategy.
+
+## What Actually Converts
+
+### Clear Value Proposition
+Users should understand what you offer within 5 seconds of landing on your page. Not what you do—what problem you solve.
+
+### Reduced Cognitive Load
+Every element on the page should serve a purpose. Decorative elements that don't guide users toward action are obstacles.
+
+### Strategic CTAs
+The placement, color, and copy of your calls-to-action matter more than most design elements. Test relentlessly.
+
+## The Mobile Reality
+
+Over 60% of web traffic is mobile. Your design needs to work flawlessly on small screens—not just technically, but strategically.
+
+## Measure Everything
+
+Install proper analytics. Track user behavior. Make decisions based on data, not opinions. The most beautiful button in the world is worthless if no one clicks it.
+    `,
+    publishedAt: "2024-12-20",
+    readingTime: 4,
+    tags: ["Design", "UX", "Conversion"],
+    coverImage: "/blog/2151345423.webp",
+    author: {
+      name: "Gustavo V. Ferreira",
+    },
+  },
+  {
+    slug: "international-web-development",
+    title: "Building for International Markets",
+    description: "Technical and strategic considerations when creating websites and applications for a global audience.",
+    content: `
+## Going Global
+
+Expanding to international markets requires more than translation. Your technical infrastructure needs to support users across time zones, languages, and cultural expectations.
+
+## Technical Foundations
+
+### Internationalization (i18n)
+Build your application with multiple languages in mind from day one. Retrofitting i18n is painful and expensive.
+
+### Performance Across Regions
+Use CDNs and edge computing to ensure fast load times globally. A site that loads in 1 second in New York might take 5 seconds in Singapore without proper infrastructure.
+
+### Currency and Payment Methods
+International users expect local payment options. Stripe, PayPal, and local alternatives vary significantly by region.
+
+## Cultural Considerations
+
+- Date formats differ (MM/DD vs DD/MM)
+- Color associations vary by culture
+- Reading patterns differ (RTL vs LTR languages)
+
+## The SEO Dimension
+
+International SEO requires proper hreflang tags, localized content, and sometimes separate domains or subdomains.
+    `,
+    publishedAt: "2024-12-10",
+    readingTime: 7,
+    tags: ["International", "Localization", "Web Development"],
+    coverImage: "/blog/120779.webp",
+    author: {
+      name: "Gustavo V. Ferreira",
+    },
+  },
+  { 
     slug: "how-to-fix-slow-website-loading",
     title: "How to Fix Slow Website Loading (Step-by-Step Guide)",
     description: "A practical guide to diagnosing and fixing slow website loading issues that hurt SEO, user experience, and conversions.",
@@ -236,7 +236,7 @@
     publishedAt: "2025-02-01",
     readingTime: 6,
     tags: ["Performance", "SEO", "Optimization"],
-    coverImage: "/placeholder.svg",
+    coverImage: "/blog/94865.webp",
     author: {
       name: "Gustavo V. Ferreira",
     },
@@ -301,7 +301,7 @@
     publishedAt: "2025-02-05",
     readingTime: 5,
     tags: ["Performance", "SEO", "Analytics"],
-    coverImage: "/placeholder.svg",
+    coverImage: "/blog/2148475550.webp",
     author: {
       name: "Gustavo V. Ferreira",
     },
@@ -364,7 +364,7 @@
     publishedAt: "2025-02-10",
     readingTime: 6,
     tags: ["WordPress", "Performance", "Optimization"],
-    coverImage: "/placeholder.svg",
+    coverImage: "/blog/89312487.webp",
     author: {
       name: "Gustavo V. Ferreira",
     },
@@ -417,7 +417,7 @@
     publishedAt: "2025-02-15",
     readingTime: 7,
     tags: ["Performance", "Web Development", "Optimization"],
-    coverImage: "/placeholder.svg",
+    coverImage: "/blog/3049568.webp",
     author: {
       name: "Gustavo V. Ferreira",
     },
@@ -469,7 +469,7 @@
     publishedAt: "2025-02-20",
     readingTime: 6,
     tags: ["Performance", "SEO", "Strategy"],
-    coverImage: "/placeholder.svg",
+    coverImage: "/blog/67843920.webp",
     author: {
       name: "Gustavo V. Ferreira",
     },

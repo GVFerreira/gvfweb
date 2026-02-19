@@ -5,11 +5,11 @@ import { useTranslations } from "next-intl"
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import { getPostBySlug, blogPosts } from "@/data/blog"
-import { Calendar, Clock, ArrowLeft, ArrowRight, User } from "lucide-react"
+import { Calendar, Clock, ArrowLeft, User } from "lucide-react"
 import { Link } from "@/i18n/navigation"
 import { parseMarkdown } from "@/lib/markdown"
+import Image from "next/image"
 
 type BlogPostPageProps = {
   params: {
@@ -58,12 +58,10 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 }
  
 export default function BlogPostPage({ params }: BlogPostPageProps) {
-   const t = useTranslations()
-   const post = getPostBySlug(params.postSlug)
- 
-   if (!post) {
-    notFound()
-  }
+  const t = useTranslations()
+  const post = getPostBySlug(params.postSlug)
+
+  if (!post) { notFound() }
  
   // Find related posts (same tags, excluding current)
   const relatedPosts = blogPosts
@@ -119,7 +117,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
  
           <div className="container mx-auto px-4 relative z-10">
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-5xl mx-auto">
               {/* Back Link */}
               <Link
                 href="/blog"
@@ -179,8 +177,15 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
          {/* Content */}
          <section aria-label="Article content" className="py-12">
            <div className="container mx-auto px-4">
+            <Image 
+              src={post.coverImage}
+              alt={post.title}
+              width={600}
+              height={460}
+              className="w-10/12 mx-auto aspect-video object-cover rounded-md"
+            />
             <article itemScope itemType="https://schema.org/Article"
-              className="max-w-3xl mx-auto
+              className="max-w-5xl mx-auto
               prose prose-lg prose-invert
               prose-headings:font-display
               prose-headings:font-semibold
@@ -203,7 +208,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
          {relatedPosts.length > 0 && (
            <aside aria-label="Related posts" className="py-16 border-t border-border">
              <div className="container mx-auto px-4">
-               <div className="max-w-3xl mx-auto">
+               <div className="max-w-5xl mx-auto">
                  <h2 className="font-display text-2xl mb-8">{t("blog.relatedPosts")}</h2>
                  <div className="grid md:grid-cols-2 gap-6">
                    {relatedPosts.map((relatedPost) => (
@@ -229,26 +234,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
              </div>
            </aside>
          )}
- 
-         {/* CTA */}
-         <section className="py-16 bg-muted/30">
-           <div className="container mx-auto px-4">
-             <div className="max-w-2xl mx-auto text-center">
-               <h2 className="font-display text-2xl md:text-3xl mb-4">
-                 {t("blog.ctaTitle")}
-               </h2>
-               <p className="text-muted-foreground mb-8">
-                 {t("blog.ctaDescription")}
-               </p>
-               <Button variant="glow" size="lg" asChild>
-                 <Link href="/contact">
-                   {t("blog.ctaButton")}
-                   <ArrowRight className="w-4 h-4 ml-2" />
-                 </Link>
-               </Button>
-             </div>
-           </div>
-         </section>
        </main>
  
        <Footer />
