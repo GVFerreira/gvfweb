@@ -47,8 +47,6 @@ export function Header() {
   // Scroll spy apenas na HOME
   // ─────────────────────────────────────────────────────
   useEffect(() => {
-    if (!isHomePage) return
-
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
 
