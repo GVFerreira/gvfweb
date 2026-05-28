@@ -234,25 +234,30 @@
     "titleHighlight": "DIZEM",
     "description": "A satisfação dos clientes é a melhor métrica de sucesso.",
     "list": {
-      "carlos": {
-        "name": "Carlos Mendes",
-        "role": "CEO, TechStart",
-        "content": "Profissional excepcional! Entregou nosso e-commerce antes do prazo e com qualidade impecável. A performance do site superou todas as expectativas."
+      "renan": {
+        "name": "Renan",
+        "role": "Gerente de Marketing, Panasonic",
+        "content": "O Gustavo entregou uma experiência digital que realmente chamou atenção no evento. A integração com realidade virtual foi impecável e os resultados em geração de leads superaram o que esperávamos."
       },
-      "ana": {
-        "name": "Ana Silva",
-        "role": "Product Manager, Fintech",
-        "content": "Excelente comunicação durante todo o projeto. O dashboard ficou incrível e a equipe adorou usar. Com certeza faremos mais projetos juntos."
+      "vinicius": {
+        "name": "Vinicius",
+        "role": "Fundador, FlyTop",
+        "content": "A reconstrução da plataforma transformou como nos posicionamos no mercado americano. A performance e a qualidade do código nos deram a credibilidade que precisávamos para crescer nos EUA."
       },
-      "roberto": {
-        "name": "Roberto Costa",
-        "role": "Founder, DeliveryApp",
-        "content": "Transformou nossa ideia em realidade. O app ficou muito melhor do que imaginávamos. Suporte pós-entrega fantástico!"
+      "gabriel": {
+        "name": "Gabriel",
+        "role": "Especialista de Marketing, D'Avila",
+        "content": "Trabalho preciso e bem executado. O Gustavo entendeu exatamente o que precisávamos e entregou uma solução que fortaleceu nossa presença digital de forma clara e profissional."
       },
-      "marina": {
-        "name": "Marina Santos",
-        "role": "Diretora, EduTech",
-        "content": "Nossa plataforma educacional ficou perfeita. Interface intuitiva, código limpo e documentação completa. Recomendo fortemente!"
+      "daniel": {
+        "name": "Daniel",
+        "role": "Fundador, Grupo We Hub",
+        "content": "Nossa operação internacional ficou muito mais eficiente. A plataforma multilíngue com automações eliminou horas de trabalho manual por semana e padronizou nossa comunicação global."
+      },
+      "bruno": {
+        "name": "Bruno",
+        "role": "Fundador, eTA Hub",
+        "content": "O sistema que o Gustavo desenvolveu resolveu um problema real que tínhamos com erros em documentação. A validação automática via IA mudou completamente a confiabilidade do nosso processo."
       }
     }
   },
@@ -324,7 +329,10 @@
     "info": {
       "title": "Informações de Contato",
       "location": "Localização",
-      "locationValue": "Brasil & Austrália"
+      "locationValue": "Brasil & Austrália",
+      "calendar": "Agende uma reunião",
+      "calendarTitle": "Escolha um horário a qualquer hora",
+      "calendarDescription": "Sou flexivel. Escolha um horário que se encaixe na sua agenda."
     },
     "availability": {
       "title": "Disponibilidade",

@@ -20,7 +20,7 @@ const technologies: Technology[] = [
   { name: "Vue.js", icon: "💚", category: "frontend", descriptionKey: "technologies.techList.vuejs" },
   { name: "Framer Motion", icon: "✨", category: "frontend", descriptionKey: "technologies.techList.framer" },
   { name: "Node.js", icon: "🟢", category: "backend", descriptionKey: "technologies.techList.nodejs" },
-  { name: "Python", icon: "🐍", category: "backend", descriptionKey: "technologies.techList.python" },
+  { name: "PHP", icon: "⚙️", category: "backend", descriptionKey: "technologies.techList.python" },
   { name: "PostgreSQL", icon: "🐘", category: "backend", descriptionKey: "technologies.techList.postgresql" },
   { name: "MongoDB", icon: "🍃", category: "backend", descriptionKey: "technologies.techList.mongodb" },
   { name: "GraphQL", icon: "◈", category: "backend", descriptionKey: "technologies.techList.graphql" },

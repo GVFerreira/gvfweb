@@ -31,16 +31,16 @@ export default function CalendarButton() {
             <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
               <Presentation className="w-6 h-6 text-primary" />
             </div>
-            Agendar reunião
+            {t("contact.info.calendar")}
           </div>
         </div>
       </DialogTrigger>
 
       <DialogContent className="sm:max-w-[1200px]">
         <DialogHeader>
-          <DialogTitle>Title</DialogTitle>
+          <DialogTitle>{t("contact.info.calendarTitle")}</DialogTitle>
           <DialogDescription>
-            Description
+          {t("contact.info.calendarDescription")}
           </DialogDescription>
         </DialogHeader>
         <Cal namespace="quick-meeting"

@@ -8,7 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-const testimonialKeys = ["carlos", "ana", "roberto", "marina"];
+const testimonialKeys = ["renan", "vinicius", "gabriel", "daniel", "bruno"];
 
 export function TestimonialsSection() {
   const t = useTranslations();

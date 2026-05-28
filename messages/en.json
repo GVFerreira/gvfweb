@@ -234,25 +234,30 @@
     "titleHighlight": "SAY",
     "description": "Client satisfaction is the best measure of success.",
     "list": {
-      "carlos": {
-        "name": "Carlos Mendes",
-        "role": "CEO, TechStart",
-        "content": "Exceptional professional! Delivered our e-commerce ahead of schedule with impeccable quality. The site performance exceeded all expectations."
+      "renan": {
+        "name": "Renan",
+        "role": "Marketing Manager, Panasonic",
+        "content": "Gustavo delivered a digital experience that truly stood out at the event. The virtual reality integration was flawless and the lead generation results exceeded our expectations."
       },
-      "ana": {
-        "name": "Ana Silva",
-        "role": "Product Manager, Fintech",
-        "content": "Excellent communication throughout the project. The dashboard turned out incredible and the team loved using it. We'll definitely do more projects together."
+      "vinicius": {
+        "name": "Vinicius",
+        "role": "Founder, FlyTop",
+        "content": "Rebuilding our platform transformed how we position ourselves in the US market. The performance and code quality gave us the credibility we needed to grow internationally."
       },
-      "roberto": {
-        "name": "Roberto Costa",
-        "role": "Founder, DeliveryApp",
-        "content": "Turned our idea into reality. The app turned out much better than we imagined. Fantastic post-delivery support!"
+      "gabriel": {
+        "name": "Gabriel",
+        "role": "Marketing Specialist, D'Avila",
+        "content": "Precise and well-executed work. Gustavo understood exactly what we needed and delivered a solution that strengthened our digital presence in a clear and professional way."
       },
-      "marina": {
-        "name": "Marina Santos",
-        "role": "Director, EduTech",
-        "content": "Our educational platform turned out perfect. Intuitive interface, clean code, and complete documentation. Highly recommend!"
+      "daniel": {
+        "name": "Daniel",
+        "role": "Founder, Grupo We Hub",
+        "content": "Our international operation became much more efficient. The multilingual platform with automations eliminated hours of manual work per week and standardized our global communication."
+      },
+      "bruno": {
+        "name": "Bruno",
+        "role": "Founder, eTA Hub",
+        "content": "The system Gustavo built solved a real problem we had with documentation errors. The AI-powered automatic validation completely changed the reliability of our process."
       }
     }
   },
@@ -324,7 +329,10 @@
     "info": {
       "title": "Contact Information",
       "location": "Location",
-      "locationValue": "Brazil & Australia"
+      "locationValue": "Brazil & Australia",
+      "calendar": "Schedule a meeting",
+      "calendarTitle": "Choose a time at any time",
+      "calendarDescription": "I am flexible. Choose a time that is suitble for you"
     },
     "availability": {
       "title": "Availability",
